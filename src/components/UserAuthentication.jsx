@@ -52,7 +52,6 @@ const UserAuthentication = () => {
         );
       }, 1000);
     });
-    console.log(isLoggedIn);
     if (isLoggedIn) {
       navigate("/home");
     } else {
@@ -63,7 +62,6 @@ const UserAuthentication = () => {
   };
 
   useEffect(() => {
-    console.log(loggedInUser);
     if (loggedInUser?.id) {
       navigate("/home");
     }

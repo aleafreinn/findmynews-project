@@ -33,8 +33,6 @@ const ResultComponent = ({ result }) => {
     });
 
     defineFav[0] ? setFavArticle(true) : setFavArticle(false);
-    console.log(favArticle);
-    console.log(defineFav);
   }, [favList, searchList]);
 
   return (

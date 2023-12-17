@@ -39,7 +39,6 @@ const Header = () => {
       <form
         onSubmit={(event) => {
           event.preventDefault();
-          console.log(keyWord);
           searchResults(keyWord, false);
         }}
       >

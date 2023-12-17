@@ -6,7 +6,7 @@ import { useMainCrud } from "../context/MainCrudContext";
 import { Typography } from "@mui/material";
 
 const ThisSection = styled.section`
-  box-sizing: border-box
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
   border: 2px solid white;
